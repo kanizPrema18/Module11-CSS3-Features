@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20px;
+        }
+        .box{
+          width: 300px;
+          height: 300px;
+          border: 3px solid steelblue; 
+          overflow-y: auto; /* Lagle scrollbar use hbe na lagle nai */
+        }
+   /* #box-1{
+        /* overflow: auto; */
+        /* overflow: hidden; /* R dekha jbe na * */
+        /* overflow: scroll; */
+        /* overflow-x: hidden; Horizontal */
+        /* overflow-y: ; /* Vertical * *
+    }*/
+    .ellipsis{
+       width: 200px;
+       border: 2px solid black;
+       white-space: nowrap;
+       overflow: hidden;
+       /* text-overflow: clip; Clip dile jemon ache temon e thakbe */
+       text-overflow: ellipsis; /* ... diye bujhai aro word ache */
+    }
+    </style>
+</head>
+<body>
+    <header>
+<!-- Tittle dewar subidha hocce- pura likha ta tittle a dile Mouse newar sathe sathe ta dekha jai -->
+      <p title="I am a serious laerner. I am investing at least 6-8hrs every single day. No gap at all." class="ellipsis">I am a serious laerner. I am investing at least 6-8hrs every single day. No gap at all.</p>
+
+        <p title="asdfghj" class="ellipsis">I am a serious laerner. I am investing at least 6-8hrs every single day. No gap at all.</p>
+    </header>
+    <section>
+           <!-- .box*2>h3{My Text Box $}+p>lorem200  -->
+   <div id="box-1" class="box">
+    <h3>My Text Box 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ullam quas doloribus quae laudantium sapiente, tenetur distinctio! Iusto doloremque adipisci velit sapiente autem assumenda ab sunt, laboriosam accusantium libero molestias maxime beatae fugit? Culpa exercitationem eveniet aut inventore perspiciatis mollitia veniam facilis nostrum odit et iure rem perferendis, totam minus quod molestiae? Similique eius ratione eum labore sapiente earum vel dolorem obcaecati nesciunt magni, rerum, est officia sequi minus molestias? Veritatis ipsam ex non aliquid pariatur, nulla culpa quisquam, in esse nobis earum perferendis blanditiis? Impedit, molestias, deleniti necessitatibus incidunt nobis dolorum quas architecto itaque commodi dolores debitis! Suscipit minima est praesentium? Eligendi minima quas aliquid ipsam esse quae quam eum magnam veniam molestias harum accusantium ullam atque, iste eos debitis labore dolor praesentium ad sunt? Debitis, omnis aperiam provident ipsam cum nihil porro quae voluptas ullam animi aliquam in laborum necessitatibus possimus iste accusamus dolore natus ipsum cupiditate, delectus vel eligendi quis! Laborum facere nam eos nemo quasi, delectus natus, error est dolore culpa iusto tempore similique quo molestiae vero. Sunt odio perspiciatis, voluptates sapiente possimus earum doloribus libero rem, ut voluptate itaque vitae repellat recusandae iure tempore temporibus ex commodi distinctio. Dicta vero ratione ab atque, animi earum?</p>
+   </div>
+   <div class="box">
+    <h3>My Text Box 2</h3>
+    <p>Fugiat possimus impedit labore voluptas laborum, omnis sit nobis fugit culpa dicta earum quas, rem corporis deserunt sunt mollitia accusantium provident quibusdam dolores aut exercitationem! Impedit repellendus ipsa eaque accusamus corporis facilis, ducimus possimus tempora quo magni, nisi labore distinctio voluptates aliquam, sapiente expedita! Perspiciatis eaque quaerat, debitis mollitia impedit repellendus provident, qui officia, enim aliquam rerum odio nihil id dolor nesciunt earum placeat voluptates eveniet sunt dicta! Tempore, nesciunt quo eaque sit quasi esse vero commodi eligendi, dolor aliquam debitis mollitia labore est cumque cupiditate. Numquam quia esse accusantium excepturi officiis hic dolore error ipsum, a nulla totam enim in repellendus sequi dolor deserunt molestias laboriosam. Excepturi veniam molestias, nihil soluta laudantium odit totam explicabo et? Et accusamus delectus iste at ratione corrupti facere error officia. Soluta corrupti asperiores repudiandae doloribus dicta debitis eaque. Eum quas quaerat aperiam ipsam mollitia accusantium doloremque. Aspernatur velit, facere totam iusto aperiam aut nemo ab eum! Aliquid accusamus commodi eaque quo id laborum molestias sit sapiente velit est quia deserunt quaerat ex, odit dolor voluptate eligendi cumque deleniti ducimus sed dignissimos ab nulla ratione? Culpa itaque pariatur nisi, modi nemo, porro sed, libero impedit error minus corporis odio minima. Assumenda, quidem est! Nesciunt!</p>
+   </div>
+  <!-- .box>h3{Text Box 3}+lorem20  -->
+  <div class="box">
+    <h3>Text Box 3</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione enim sed perspiciatis recusandae doloremque quae, at doloribus iste omnis.
+  </div>
+    </section>
+</body>
+</html>
