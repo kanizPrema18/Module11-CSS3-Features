@@ -10,32 +10,31 @@
             border: 1px solid steelblue;
         }
         .bat{
-            transition: transform 0.1s;
+            transition: transform 0.1s ease-in;
         }
         .ball{
-          height: 50px;
-          width: 50px;
-          border-radius: 50%;  
-          background-color: red;
-          position: relative; /* Ball abar ager jaigai ashbe */
-          left: 510px;
-          transition: transform 1s ease-out 0.2s; /* 0.2s pore ball jbe. Bat aste 0.1s smy lagbe. */
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative; /* Ball abar ager jaigai ashbe */
+            left: 515px;
+            transition: transform 1s ease-out 0.2s; /* 0.2s pore ball jbe. Bat aste 0.1s smy lagbe. */
         }
         .field:hover .bat{ /* Field a mouse newar por bat anti-clockwise ghurbe */
             transform: rotate(-60deg);
             transform-origin: top right;
         }
-        .field:hover, .ball{
+        .field:hover .ball{
             transform: translate(1000px, -500px); /* Field a mouse newar por ball x-exis borabor 1000px & y-exis borabor -500px sorbe */
         }
+        
     </style>
 </head>
 <body>
-   <div class="field">
-    <img src="" alt="" class="bat">
-    <div class="ball">
-        <img src="" alt="">
+    <div class="field">
+        <img src="images/bat.png" alt="" class="bat">
+        <div class="ball"></div>
     </div>
-   </div> 
 </body>
 </html>
