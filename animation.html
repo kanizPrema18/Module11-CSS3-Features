@@ -1,0 +1,75 @@
+<!-- @keyframes -->
+ <!-- Animation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*    @keyframes ping-pong{
+            from{
+                left: 0;
+            }
+            to{
+              left: 600px
+            }
+            to{
+             background-color: red;
+            }
+ /* 0 theke 600px dure jawar smy red hbe 
+        }  */
+ @keyframes bounce{
+         0%{
+           top: 0px;
+           left: 0px;
+         }
+         25%{
+          left: 150px;
+          top: 200px;
+          background-color: red;
+         }
+         50%{
+          left: 300px;
+          top: 0px;
+          background-color: yellow;
+         }
+         100%{
+          left: 500px;
+          top: 200px;
+          background-color: red;
+         }
+        } 
+        .stage{
+          width: 600px;
+          height: 300px;
+          border: 2px solid steelblue;  
+          background-color: aquamarine;
+        }
+        .ball{
+           width: 100px;
+           height: 100px;
+           border-radius: 50%;
+           background-color: yellowgreen; 
+           position: relative;
+/* Ball 0 theke 500px dure jwr jonno */
+          /* animation: name duration timing-function delay iteration-count direction fill-name; */
+          /* animation: ping-pong 2s ease-in-out 1s 3 alternate; */
+/* 
+   2)Duration-> kotokhon dhore colbe
+   3)Timing-function->ease, ease-in, ease-in-out, ease-out, step-end
+   4)Delay->Kotokhon pore suru hbe
+   5)Iteration-count->Koibar cholbe, Infinite(Sarajibon cholbe) o dewa jbe.
+   6)Direction->Forward, Backward, alternate(jbe, ashbe), alternate-reverse
+    */
+    animation: bounce 3s ease-in-out 1s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+ <h2>Explore Animation</h2> 
+ <div class="stage">
+    <div class="ball"></div>
+ </div>  
+</body>
+</html>
