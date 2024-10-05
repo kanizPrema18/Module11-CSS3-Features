@@ -137,6 +137,13 @@
     color: rgba(58, 58, 58, 1.00);
     font-weight: 500; /* Semibold */
 }
+.tittle{
+  font-size: 1.75rem;
+}
+.des{
+  font-size: 0.875rem;
+  font-weight: 700; /* Bold */
+}
 .influ{
   font-size: 1.5rem;
   font-weight: 700; /* Bold */
@@ -178,6 +185,44 @@ ul li a{
 .banner-img img{
   margin: 10px 30px 0 5px;
 }
+  /* Brand Section */
+  .brand{
+    display: flex;
+    /* gap: 60px; */
+    margin: 80px 165px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px 60px;
+  }
+
+  /* Popular Section */
+  .popular-catagory{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 196px 30px 200px;
+  }
+  .popular-tittle{
+    text-align: center;
+    font-weight: 600; /* Semibold */
+    margin-bottom: 30px;
+  }
+  .popular-items{
+    padding: 17px 14px;
+    box-shadow: 0 0 40 0 rgba(0, 0, 0, 0.15);
+  }
+  .popular-items-tittle{
+    font-weight: 500; /* Medium */
+    margin: 16px 0 6px 0;
+  }
+  .icon{
+    margin: 10px 0;
+  }
+  .pink{
+    color: #E02C6D;
+    text-align: end;
+    margin-right: 194px;
+  }
+/* Responsive Media Queary */
 @media screen and (max-width: 576px){
   .flex{
     flex-direction: column;
