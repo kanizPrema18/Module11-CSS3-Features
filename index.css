@@ -116,6 +116,7 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 16px;
+    width: 150px;
 }
 .orange{
     color: #FB8200;
@@ -180,7 +181,6 @@ ul li a{
 }
 .banner-btn{
   border-radius: 41px;
-  width: 150px;
 }
 .banner-img img{
   margin: 10px 30px 0 5px;
@@ -222,7 +222,26 @@ ul li a{
     text-align: end;
     margin-right: 194px;
   }
-/* Responsive Media Queary */
+  /* Featured section */
+  .featured{
+    display: flex;
+    gap: 130px;
+    margin: 100px 200px 150px 200px;
+  }
+  .featured-content{
+    align-items: center;
+  }
+  .featured-tittle{
+    font-size: 2.375rem;
+    font-weight: 700;
+    color: rgba(10, 8, 38, 1.00);
+    margin-bottom: 16px;
+    margin-top: 50px;
+  }
+  .featured-btn{
+     margin-top: 16px;
+  }
+  /* Responsive Media Queary */
 @media screen and (max-width: 576px){
   .flex{
     flex-direction: column;
